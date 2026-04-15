@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблиця Євробачення</title>
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<table>
+  <caption>
+    Переможці пісенного конкурсу «Євробачення» (2013-2023)
+  </caption>
+  <thead>
+    <tr>
+      <th scope="col">Рік</th>
+      <th scope="col">Країна</th>
+      <th scope="col">Виконавець</th>
+      <th scope="col">Переможна пісня</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">2025</th>
+      <td>Австрія</td>
+      <td>JJ</td>
+      <td>Wasted Love</td>
+    </tr>
+    <tr>
+      <th scope="row">2024</th>
+      <td>Швейцарія</td>
+      <td>Nemo</td>
+      <td>The Code</td>
+    </tr>
+    <tr>
+      <th scope="row">2023</th>
+      <td>Швеція</td>
+      <td>Loreen</td>
+      <td>Tattoo</td>
+    </tr>
+    <tr>
+      <th scope="row">2022</th>
+      <td>Україна</td>
+      <td>Kalush Orchestra</td>
+      <td>Stefania</td>
+    </tr>
+    <tr>
+      <th scope="row">2021</th>
+      <td>Італія</td>
+      <td>Måneskin</td>
+      <td>Zitti e buoni</td>
+    </tr>
+    <tr>
+   	<th scope="row">2019</th>
+      <td>Нідерланди</td>
+      <td>Duncan Laurence</td>
+      <td>Arcade</td>
+    </tr>
+    <tr>
+    <th scope="row">2018</th>
+      <td>Ізраїль</td>
+      <td>Netta</td>
+      <td>Toy</td>
+    </tr>
+    <tr>
+      <th scope="row">2017</th>
+      <td>Португалія</td>
+      <td>Salvador Sobral</td>
+      <td>Amar pelos dois</td>
+    </tr>
+    <tr>
+      <th scope="row">2016</th>
+      <td>Україна</td>
+      <td>Jamala</td>
+      <td>1944</td>
+    </tr>
+    <tr>
+      <th scope="row">2015</th>
+      <td>Швеція</td>
+      <td>Måns Zelmerlöw</td>
+      <td>Heroes</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th scope="row" colspan="2">Загальна кількість переможців у списку</th>
+      <td colspan="2">10</td>
+    </tr>
+  </tfoot>
+</table>
+
+</body>
+</html>

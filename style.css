@@ -1,0 +1,82 @@
+/* Типографіка */
+html {
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+
+/* Відступи та структура */
+table {
+  table-layout: fixed;
+  width: 100%;
+  max-width: 1000px; /* Додано, щоб таблиця не розтягувалась на весь екран */
+  margin: 40px auto; /* Центрування на сторінці */
+  border-collapse: collapse;
+  border: 3px solid #024424; /* Темно-фіолетовий колір рамки */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Легка тінь для краси */
+}
+
+/* Ширина колонок */
+thead th:nth-child(1) { width: 15%; }
+thead th:nth-child(2) { width: 25%; }
+thead th:nth-child(3) { width: 30%; }
+thead th:nth-child(4) { width: 30%; }
+
+th, td {
+  padding: 15px 20px;
+}
+
+/* Застосування кастомного шрифту */
+thead th,
+tfoot th {
+  font-family: "Rock Salt", cursive;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td, tbody th {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+/* Графіка і кольори шапки/футера */
+thead,
+tfoot {
+  /* Замість фотографії леопарда використовуємо стильний фіолетовий градієнт */
+  background-color: #035e32;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+thead th,
+tfoot th,
+tfoot td {
+  border: 3px solid #011f11;
+}
+
+/* Полосата зебра для рядків (трохи зм'якшив кольори для кращої читабельності) */
+tbody tr:nth-child(odd) {
+  background-color: #a4f9d1; 
+}
+
+tbody tr:nth-child(even) {
+  background-color: #b8fde9; 
+}
+
+/* Заголовок таблиці (caption) */
+caption {
+  font-family: "Rock Salt", cursive;
+  padding: 15px;
+  font-style: italic;
+  caption-side: bottom;
+  color: #666;
+  text-align: right;
+  letter-spacing: 1px;
+}
